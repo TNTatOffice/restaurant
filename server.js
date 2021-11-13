@@ -13,8 +13,13 @@ app.get('/', (req,res) => {
 
 // route to sign in page
 app.get('/login', (req,res) => {
-  res.sendFile(__dirname + '/signIn.html');
+    return res.sendFile(__dirname + '/signIn.html');
+    if (login.onclick)
+    {
+      res.redirect()
+    }
 });
+
 
 // server active
 app.listen(PORT);

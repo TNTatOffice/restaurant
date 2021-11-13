@@ -31,7 +31,7 @@ html{
     font-family: 'Karla', sans-serif;
     font-size: 20px;
 }
-#submit, #signUp{
+#login, #signUp{
     font-family: 'Karla', sans-serif;
     font-weight: bold;
     font-size: 18px;
