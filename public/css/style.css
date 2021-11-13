@@ -10,7 +10,7 @@ html{
     margin-top: 100px;
 }
 
-.loginArea{
+.entryArea{
     font-family: 'Oswald', sans-serif;
     background-color: #D97904;
     color: #D97904;
@@ -27,17 +27,17 @@ html{
     background-image: url(/css/images/background_.jpg);
     background-size: cover;
 }
-#signInForm{
+#clientChoice{
     font-family: 'Karla', sans-serif;
     font-size: 20px;
 }
 #submit, #signUp{
     font-family: 'Karla', sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     background-color: #F2B705;
     color: #262523;
     border: none;
-    width: 100px;
-    height: 30px;
+    width: 130px;
+    height: 40px;
 }
