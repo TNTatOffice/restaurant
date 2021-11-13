@@ -1,0 +1,43 @@
+html{
+    background-color: #262523;
+    }
+#pageHeading{
+    font-family: 'Abril Fatface', cursive;
+    color: #F2B705;
+    font-size: 65px;
+    letter-spacing: px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.loginArea{
+    font-family: 'Oswald', sans-serif;
+    background-color: #D97904;
+    color: #D97904;
+    margin-left: 50%;
+    /*  horizontally centering an element with a dynamic width */
+    transform: translateX(-50%);
+    /* round corners */
+    border-radius: 15px;
+    box-shadow: 5px 13px 13px rgb(0 0 0 / 0.2);;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 25px;
+    background-image: url(/css/images/background_.jpg);
+    background-size: cover;
+}
+#signInForm{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+#submit, #signUp{
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #F2B705;
+    color: #262523;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
