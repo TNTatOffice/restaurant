@@ -14,11 +14,21 @@ app.get('/', (req,res) => {
 // route to sign in page
 app.get('/login', (req,res) => {
     return res.sendFile(__dirname + '/signIn.html');
-    if (login.onclick)
-    {
-      res.redirect()
-    }
 });
+
+function redirect(){
+  const loginClick = document.getElementById('login');
+  const signUpClick = document.getElementById('signUp');
+  if(loginClick.clicked == true)
+  {
+    return res.render('/login')
+  }
+  else if (signUpClick.clicked == true)
+  {
+    return res.redirect('signUp.html')
+  }
+};
+
 
 
 // server active
