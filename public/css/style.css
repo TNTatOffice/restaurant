@@ -5,7 +5,7 @@ html{
     font-family: 'Abril Fatface', cursive;
     color: #F2B705;
     font-size: 65px;
-    letter-spacing: px;
+    letter-spacing: 3px;
     text-align: center;
     margin-top: 100px;
 }
@@ -19,7 +19,7 @@ html{
     transform: translateX(-50%);
     /* round corners */
     border-radius: 15px;
-    box-shadow: 5px 13px 13px rgb(0 0 0 / 0.2);;
+    box-shadow: 5px 13px 13px rgb(0 0 0 / 0.2);
     height: 500px;
     padding-top: 30px;
     padding-left: 40px;
@@ -40,4 +40,51 @@ html{
     border: none;
     width: 130px;
     height: 40px;
+}
+.pageBackground{
+    background-image: url(/css/images/sign_up.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#signUpPageHeading{
+    font-family: 'Abril Fatface', cursive;
+    color: #F2B705;
+    font-size: 65px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.detailsContainer{
+    width: 550px;
+    height: 680px;
+    margin-left: 50%;
+    /*  horizontally centering an element with a dynamic width */
+    transform: translateX(-50%);
+    /* round corners */
+    border-radius: 15px;
+    box-shadow: 5px 13px 13px rgb(0 0 0 / 0.2);
+    background-color: #2a2826;
+    opacity: 98%;
+}
+.formData{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #D97904;
+    padding-bottom: 15px;
+}
+#fName, #lName, #eMail, #password, #confirmPass {
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+}
+#submit{
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    width: 180px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: #F2CB05;
+    color: #262523;
+    border-radius: 15px;
 }
