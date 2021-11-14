@@ -63,8 +63,8 @@ html{
     /* round corners */
     border-radius: 15px;
     box-shadow: 5px 13px 13px rgb(0 0 0 / 0.2);
-    background-color: #2a2826;
-    opacity: 98%;
+    background-color: #1a1a19;
+    opacity: 90%;
 }
 .formData{
     font-family: 'Oswald', sans-serif;

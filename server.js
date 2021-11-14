@@ -1,6 +1,5 @@
 // creating localhost on port 3000
 const express = require("express");
-const mongo = require("mongodb");
 const app = express();
 const PORT = 3000;
 app.use("/", express.static("public"));
