@@ -13,16 +13,17 @@
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:wght@200&family=Oswald:wght@200&display=swap"
         rel="stylesheet">
     <script src='server.js'></script>
+    <script src="verification.js"></script>
 </head>
 
 <body>
     <div class="pageBackground">
         <h1 id="signUpPageHeading">Create a new account</h1>
         <div class="detailsContainer">
-            <form action="/api/user" id="signUpForm" method="POST">
+            <form action="" id="signUpForm" onsubmit="return verifyForm();">
                 <div class="formData">
                     <br>
-                    <label for="firstName">First Name</label>
+                    <label for="firstName" id="firstName">First Name</label>
                     <br>
                     <input type="text" name="firstName" id="fName">
                     <br>
