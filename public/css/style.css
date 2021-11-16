@@ -89,3 +89,20 @@ html{
     color: #262523;
     border-radius: 15px;
 }
+.menuTable {
+    margin-left: 50%;
+    /*  horizontally centering an element with a dynamic width */
+    transform: translateX(-50%);
+    color: #F2B705;
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+    border: #F2B705 1px solid;
+}
+th{
+    font-family: 'Oswald', sans-serif;
+    color: #D97904;
+    font-size: 30px;
+
+}

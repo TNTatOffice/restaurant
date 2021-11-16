@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 const mongoose = require ('mongoose');
 bodyParser = require("body-parser");
-app.use("/", express.static("public"));
+app.use (express.static("public"));
 
 // route to home page
 app.get("/", (req, res) => {
@@ -21,6 +21,10 @@ app.get("/signup", (req, res) => {
   return res.sendFile(__dirname + "/signUp.html");
 });
 
+// route to menu
+app.get("/menu", (req,res) => {
+  return res.sendFile(__dirname + "/menu.html");
+});
 
 // server active
 app.listen(PORT);
