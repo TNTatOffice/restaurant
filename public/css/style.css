@@ -97,11 +97,30 @@ html{
     font-family: 'Karla', sans-serif;
     font-size: 25px;
     text-align: center;
-    width: 80%;
+    width: 85%;
     border: #F2B705 1px solid;
+    padding: 10px 10px 10px 10px;
+    border-collapse: collapse;
+
 }
 th{
     font-family: 'Oswald', sans-serif;
     color: #D97904;
-    font-size: 30px;
+    font-size: 25px;
+}
+#nashville{
+    width: 200px;
+    padding-left: 10px;
+}
+td{
+    border: #D97904 1px solid;
+    font-size: 22px;
+}
+#addToCart{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-color: #F2CB05;
+    border: none;
+    width: 80px;
+    height: 40px;
 }
