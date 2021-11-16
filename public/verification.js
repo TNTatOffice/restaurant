@@ -1,7 +1,8 @@
 // First name- between 2 to 20
 // Last name- between 2 - 20
 // Email- compulsory, must have @ and be gmail or yahoo
-// Password- compulsory, 2-10
+// Password- compulsory, 2-10, must have special characters
+// Verify password 
 // Error if details are not filled
 
 function verifyForm() {
@@ -26,10 +27,21 @@ var lnameLength = lname.length;
     {
         alert('Your last name is too long');
     }
-    // verify email
+    // verify email- check why not working properly
 var mailid = document.getElementById('eMail').value;
-if(mailid.indexOf('@gmail') > -1 || mailid.indexOf('@yahoo') > -1)
+if(mailid.indexOf('gmail') > -1 || mailid.indexOf('yahoo') > -1)
 {
-    alert('Your email is invalid');
+    alert('Your email must be a Gmail or Yahoo address');
+    break
+}
+var pass = document.getElementById('password').value;
+if( pass.indexOf('!','@','#','$','%','^','&','*','(',')') == -1)
+{
+    alert('Your password must include a special character');
+}
+var confirmPass = document.getElementById('confirmPass').value
+if (confirmPass !== pass)
+{ 
+    alert('Your password does not match');
 }
 }
