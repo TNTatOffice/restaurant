@@ -112,6 +112,18 @@ th{
     width: 200px;
     padding-left: 10px;
 }
+#nuggets{
+    width: 200px;
+    padding-left: 10px;
+}
+#butler{
+    width: 200px;
+    padding-left: 10px;
+}
+#homestate{
+    width: 200px;
+    padding-left: 10px;
+}
 td{
     border: #D97904 1px solid;
     font-size: 22px;
