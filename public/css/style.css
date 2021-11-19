@@ -24,7 +24,7 @@ html{
     padding-top: 30px;
     padding-left: 40px;
     font-size: 25px;
-    background-image: url(/css/images/back.jpg);
+    background-image: url(/images/back.jpg);
     background-size: cover;
 }
 #clientChoice{
@@ -43,7 +43,7 @@ html{
 
 }
 .pageBackground{
-    background-image: url(/css/images/sign_up.jpg);
+    background-image: url(/images/sign_up.jpg);
     background-size: cover;
     padding-bottom: 50px;
     padding-top: 50px;

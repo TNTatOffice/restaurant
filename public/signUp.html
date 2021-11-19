@@ -12,15 +12,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:wght@200&family=Oswald:wght@200&display=swap"
         rel="stylesheet">
-    <script src="/server.js"></script>
-    <script src="/verification.js"></script>
+    <!-- <script src="/server.js"></script> -->
+    <script src="/js/verification.js"></script>
 </head>
 
 <body>
     <div class="pageBackground">
         <h1 id="signUpPageHeading">Create a new account</h1>
         <div class="detailsContainer">
-            <form action="" id="signUpForm" onsubmit="return verifyForm();">
+            <form id="signUpForm">
                 <div class="formData">
                     <br>
                     <label for="firstName" id="firstName">First Name</label>
@@ -43,7 +43,7 @@
                     <br>
                     <input type="password" name="confirmPass" id="confirmPass">
                     <br>
-                    <button type="submit" id="submit">Submit</button>
+                    <button type="button" id="submit" onclick="verifyForm()">Submit</button>
 
                 </div>
             </form>

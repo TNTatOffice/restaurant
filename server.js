@@ -2,14 +2,21 @@
 const express = require("express");
 const app = express();
 const PORT = 3000;
-const mongoose = require ('mongoose');
 bodyParser = require("body-parser");
 app.use (express.static('public'));
+app.use(express.json());
+const registrationController = require('./controllers/registration-controller.js')
+const signInController = require('./controllers/signIn-controller.js')
+
 
 // route to home page
 app.get("/", (req, res) => {
   return res.sendFile(__dirname + "/public/login.html");
 });
+
+app.post("/register", registrationController.register);
+app.post("/user-login", signInController.signIn);
+
 
 // route to sign in page
 app.get("/login", (req, res) => {
