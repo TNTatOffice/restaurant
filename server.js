@@ -4,26 +4,26 @@ const app = express();
 const PORT = 3000;
 const mongoose = require ('mongoose');
 bodyParser = require("body-parser");
-app.use (express.static("public"));
+app.use (express.static('public'));
 
 // route to home page
 app.get("/", (req, res) => {
-  return res.sendFile(__dirname + "/login.html");
+  return res.sendFile(__dirname + "/public/login.html");
 });
 
 // route to sign in page
 app.get("/login", (req, res) => {
-  return res.sendFile(__dirname + "/signIn.html");
+  return res.sendFile(__dirname + "/public/signIn.html");
 });
 
 // route to sign up page
 app.get("/signup", (req, res) => {
-  return res.sendFile(__dirname + "/signUp.html");
+  return res.sendFile(__dirname + "/public/signUp.html");
 });
 
 // route to menu
 app.get("/menu", (req,res) => {
-  return res.sendFile(__dirname + "/menu.html");
+  return res.sendFile(__dirname + "/public/menu.html");
 });
 
 // server active
