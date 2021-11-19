@@ -8,7 +8,7 @@ app.use (express.static("public"));
 
 // route to home page
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/login.html");
+  return res.sendFile(__dirname + "/login.html");
 });
 
 // route to sign in page

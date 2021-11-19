@@ -1,10 +1,3 @@
-// First name- between 2 to 20
-// Last name- between 2 - 20
-// Email- compulsory, must have @ and be gmail or yahoo
-// Password- compulsory, 2-10, must have special characters
-// Verify password 
-// Error if details are not filled
-
 function verifyForm() {
 var fname = document.getElementById('fName').value;
 var fnameLength = fname.length;
